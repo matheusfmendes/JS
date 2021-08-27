@@ -1,6 +1,6 @@
 //alert("ola!")
 function carregar() {
-        let msg = window.document.getElementById('msg')
+        let msg = document.getElementById('msg')
         let img = document.getElementById('imagem')
         let data = new Date()
         let hora = data.getHours()
