@@ -10,7 +10,7 @@ function calcular() {
             result.innerHTML = 'calculando numeros negativos: <br/>'
             let resultado = dividendo * number;
         
-            result.innerHTML += (`${dividendo} X ${number} = ${resultado}`);
+            result.innerHTML += `${dividendo} X ${number} = ${resultado}`
             // console.log(`${dividendo} X ${number} = ${resultado}`);
             // dividendo = Number(divi.value)
         }
@@ -20,7 +20,7 @@ function calcular() {
       
             let resultado = dividendo * number;
             dividendo = Number(divi.value)
-            result.innerHTML+= `${dividendo} X ${number} = ${resultado}`
+            result.innerHTML+= `${dividendo} X ${number} = ${resultado}<br />`
 
         }
     }
