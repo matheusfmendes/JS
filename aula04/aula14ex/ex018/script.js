@@ -2,7 +2,7 @@ function calcular() {
     let number;
     let dividendo = document.getElementById('divi')
     let result = document.getElementById('res')
-
+ 
     if (dividendo = Number <= 0) {
         dividendo = Number(divi.value)
 
@@ -12,7 +12,7 @@ function calcular() {
         
             result.innerHTML += (`${dividendo} X ${number} = ${resultado}`);
             // console.log(`${dividendo} X ${number} = ${resultado}`);
-            dividendo = Number(divi.value)
+            // dividendo = Number(divi.value)
         }
     } else {
         for (number = 0; number <= 10; number++) {
