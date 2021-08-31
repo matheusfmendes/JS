@@ -1,26 +1,29 @@
 function calcular() {
-    let number;
+    let number = 0;
     let dividendo = document.getElementById('divi')
     let result = document.getElementById('res')
- 
+    
     if (dividendo = Number <= 0) {
-        dividendo = Number(divi.value)
-
+        dividendo = Number(divi.value.length)
+        
         for (number = -10; number <= 0; number++) {
-            result.innerHTML = 'calculando numeros negativos: <br/>'
             let resultado = dividendo * number;
         
-            result.innerHTML += `${dividendo} X ${number} = ${resultado}`
+            result.innerHTML += `${dividendo} X ${number} = ${resultado} `
             // console.log(`${dividendo} X ${number} = ${resultado}`);
             // dividendo = Number(divi.value)
         }
     } else {
+        result.innerHTML = "contando: "
         for (number = 0; number <= 10; number++) {
-            result.innerHTML = 'calculando: <br/>'
+            dividendo = Number(divi.value)
+            result.style.overflowY = 'scroll'
+            result.style.width = '162px'
+            result.style.height = '250px'
       
             let resultado = dividendo * number;
-            dividendo = Number(divi.value)
-            result.innerHTML+= `${dividendo} X ${number} = ${resultado}<br />`
+            result.innerHTML+= `<ul>${dividendo} X ${number} = ${resultado}</ul>`
+            // result.innerHTML+= `${dividendo} X ${number} = ${resultado}`
 
         }
     }
