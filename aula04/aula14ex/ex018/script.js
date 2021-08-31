@@ -13,16 +13,16 @@ function calcular() {
         }
     } else {
         result.innerHTML = "contando: "
-        result.style.overflowY = 'scroll'
-        result.style.width = '162px'
-        result.style.height = '250px'
+        // result.style.overflowY = 'scroll'
+        // result.style.width = '162px'
+        // result.style.height = '250px'
 
         for (number = 0; number <= 10; number++) {
 
             dividendo = Number(divi.value)
 
             let resultado = dividendo * number;
-            result.innerHTML += `<ul>${dividendo} X ${number} = ${resultado}</ul>`
+            result.innerHTML += `<option>${dividendo} X ${number} = ${resultado}</option>`
         }
     }
 
