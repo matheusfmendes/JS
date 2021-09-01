@@ -11,8 +11,8 @@ function calcular() {
         
              for (number = 0; number <= 10; number++) {
 
-            let resultado = dividendo * number;
-            result.innerHTML += `<option>${dividendo} X ${number} = ${resultado}</option>`
+//             let resultado = dividendo * number;
+            result.innerHTML += `<option>${dividendo} X ${number} = ${dividendo * number}</option>`
             
         // result.style.overflowY = 'scroll'
         // result.style.width = '162px'
