@@ -1,0 +1,45 @@
+.element{
+    width: 1330;
+    height: 780px;
+    background: linear-gradient(0, #000000, #120c56);
+}
+/*@keyframes cor {
+    0% {
+        background-color: #120A8F;
+    }
+    50% {
+        background-color: #993399;
+    }
+    100% {
+        background-color: #120A8F;
+    }
+    
+}*/
+.cadastro{
+    text-align: center;
+    color: #fff;
+}
+.cadastro input{
+    background: transparent;
+
+}
+.botao{
+    color: #fff;
+    background-color: green;
+}
+.botao1{
+    color: #fff;
+    background-color: red;
+    margin-left: 40px;
+}
+body{
+    background: linear-gradient(0, #000000, #120c56);
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+    color: #FFF;
+    background-color: #120c56;
+}
+
